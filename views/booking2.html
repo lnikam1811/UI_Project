@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Let's Roll in Manchester</title>
+		<link rel="stylesheet" href="../css/booking2.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Let's Roll in MANCHESTER</h1>
+			<form>
+				<div class="top-right">
+					<button class="login" onclick="goToLoginPage2()">Login</button>
+				</div>
+				<div class="top-left">Contact us</div>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="Autofilled" />
+				</div>
+				<div class="form-group">
+					<label for="contact-number">Contact Number:</label>
+					<input
+						type="tel"
+						id="contact-number"
+						name="contact-number"
+						placeholder="Autofilled"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="number-of-people">Number of People:</label>
+					<input
+						type="number"
+						id="number-of-people"
+						name="number-of-people"
+						placeholder="Autofilled"
+					/>
+				</div>
+				<!-- <div class="form-group"> -->
+				<!-- <label for="date-time">Date & Time:</label> -->
+				<!-- <input -->
+				<!-- type="text"
+						id="date-time"
+						name="date-time"
+						placeholder="Autofilled" -->
+				<!-- /> -->
+				<!-- </div> -->
+				<button
+					type="submit"
+					class="confirm-booking"
+					onclick="confirm_booking()"
+				>
+					Confirm Booking
+				</button>
+			</form>
+		</div>
+	</body>
+	<script src="../controllers/script.js"></script>
+	<script src="../controllers/LoginSignup.js"></script>
+	<script>
+		window.onload = autofill;
+	</script>
+</html>

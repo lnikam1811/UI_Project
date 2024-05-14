@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+    background-color: #ddcaca;
+    /* color: #333; */
+    /* background-image: url('https://img.freepik.com/premium-photo/picture-bowling-ball-hitting-pins-scoring-strike-bowling-background-bowling-3d-rendering\_252967-118.jpg?w=1060'); */
+    background-image: url('https://png.pngtree.com/png-clipart/20230801/original/pngtree-bowling-strike-icon-mockup-realistic-picture-image_7731218.png');
+    color: black;
+}
+
+.container {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+   /* height: 100vh;*/
+      padding: 20px;
+    box-sizing: border-box;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e0e0e0;
+    color: #4d4d4d;
+    padding: 8px 8px;
+    font-size: 15px;
+    /*    text-shadow: 0px, 0px ; */
+    /*    box-shadow: 10px 10px 4px 12px lightblue; */
+    border: none;
+    border-radius: 2px;
+    margin: 0 8px;
+    display: flex;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e0e0e0;
+    color: #4d4d4d;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    display: flex;
+}
+
+.login {
+    background-color: #e0e0e0;
+    color: #4d4d4d;
+    position: top-right:
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-label {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.continue-btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.continue-btn:hover {
+    background-color: #b02626;
+}
+
+.datepicker {
+    position: relative;
+    display: inline-block;
+}
+
+.datepicker input {
+    padding: 8px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.calendar {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.calendar table {
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #f2f2f2;
+}
+
+.calendar td:hover {
+    background-color: #e6e6e6;
+}
+
+ .map-container {
+            display: flex;
+            justify-content: center;
+            
+            height: 100vh; /* This makes the container take the full height of the viewport */
+        }
+        
+iframe {
+            border: 1px solid #000; /* Added border styling */
+        }

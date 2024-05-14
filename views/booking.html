@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Roll in Manchester</title>
+    <link rel="stylesheet" href="../css/booking.css">
+
+</head>
+
+<body>
+    <div class=" container">
+        <header>
+            <h1>Let's Roll in MANCHESTER</h1>
+            <!-- <div class="top-right"> -->
+            <!-- Login -->
+            <!-- </div> -->
+            <div class="top-right">
+                <button class="login" onclick="goToLoginPage2()">
+                    Login
+                </button>
+            </div>
+            <div class="top-left">
+                Contact us
+            </div>
+        </header>
+        <main>
+            <div class="booking-form">
+                <div class="form-group">
+                    <div class="label">Start your Booking here</div>
+                    <div class="dropdown">
+                        <div class="dropdown-label" id="locationLabel">Select Location</div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-item" data-value="Location 1">Location 1</div>
+                            <div class="dropdown-item" data-value="Location 2">Location 2</div>
+                            <div class="dropdown-item" data-value="Location 3">Location 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="dropdown">
+                        <div class="datepicker">
+                            <input type="text" id="dateInput" placeholder="Select Date">
+                            <div class="calendar" id="calendar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="dropdown">
+                        <div class="dropdown-label" id="gamesLabel">No. of Games</div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-item" data-value="Game 1">Game 1</div>
+                            <div class="dropdown-item" data-value="Game 2">Game 2</div>
+                            <div class="dropdown-item" data-value="Game 3">Game 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="continue-btn" onclick="goToBooking2Page()">Continue</button>
+            </div>
+         
+        
+         
+    </div>
+    </main>
+        <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151986.11818245714!2d-2.388272413499107!3d53.4723364453273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester!5e0!3m2!1sen!2suk!4v1715677697518!5m2!1sen!2suk" width="500" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+    
+</body>
+<script src="../controllers/script.js"></script>
+
+</html>
